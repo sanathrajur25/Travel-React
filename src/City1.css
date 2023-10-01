@@ -1,0 +1,30 @@
+.map-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .map {
+    flex: 1;
+    position: relative;
+  }
+  
+  .sidebar {
+    width: 300px;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .hotel-details {
+    margin-bottom: 20px;
+  }
+  
+  .hotel-details h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .hotel-details p {
+    margin: 0;
+  }
+  
+  

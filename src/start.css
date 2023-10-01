@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,700&display=swap');
+.start-journey-button {
+    padding: 10px 20px;
+    font-size: 35px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    position: relative;
+    top: 35%;
+    left: 40%;
+    z-index: 2;
+    animation: glowing 2s infinite;
+  }
+  
+  .start-journey-button:hover {
+    animation: none;
+    box-shadow: 0 0 20px 10px #00ced1;
+  }
+  
+  @keyframes glowing {
+    0% {
+      box-shadow: 0 0 10px 0 #00ced1;
+    }
+    50% {
+      box-shadow: 0 0 20px 10px #00ced1;
+    }
+    100% {
+      box-shadow: 0 0 10px 0 #00ced1;
+    }
+  }
+  .typewriter {
+    overflow: hidden;
+    font-family: 'Playfair Display', serif;
+    white-space: nowrap; 
+    border-right: 0.15em solid black; 
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
+  }
+  
